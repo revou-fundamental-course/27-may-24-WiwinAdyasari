@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTS-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>School Profile Wiwin Adyasari</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+
+    <body>
+        <!-- Logo dan Navigasi -->
+        <nav class="allnav">
+            <div class="logo"></div>
+            <section class="navigasi2">
+                <a class="navigasi" href="#beranda"><b>Beranda</b></a>
+                <a class="navigasi" href="#profilkami"><b>Profil</b></a>
+                <a class="navigasi" href="#hubungikami"><b>Hubungi Kami!</b></a>
+            </section>
+        </nav>
+        <hr>
+
+        <!-- Beranda -->
+        <section id="beranda">
+            <header>
+                <h1>Hi <span id="name">Wiwin</span>, Selamat Datang di Website</h1>
+                <button id="gantinama">Ganti Nama</button>
+            </header>
+            <p class="deskripsi">Sekolah Indah Harmoni menawarkan pendidikan holistik 
+                dari TK hingga SMA, menggabungkan akademik berkualitas dengan pengembangan 
+                karakter dalam lingkungan yang modern dan mendukung.</p>
+            
+            <!-- Banner -->
+            <article class="banner">
+                <div>
+                    <img class="gambarbanner" 
+                    src="https://i.pinimg.com/originals/88/c8/40/88c840be659faebf66489e05b9224178.jpg">
+                    <img class="gambarbanner" 
+                    src="https://img.freepik.com/free-photo/sunset-silhouettes-trees-mountains-generative-ai_169016-29371.jpg">
+                    <img class="gambarbanner" 
+                    src="https://wallpapers.com/images/hd/calming-desktop-nsup0okwyoqg4db9.jpg">
+                </div>
+                <div class=banner-buttons>
+                    <button onclick="plusDivs(-1)">Previous</button>
+                    <button onclick="plusDivs(1)">Next</button>
+                </div>
+            </article>
+        </section>
+        <hr>
+
+        <!-- Profil -->
+        <section id="profilkami">
+            <header>
+                <h1>Profil Kami</h1>
+            </header>
+
+            <div class="visimisi">
+                <h3>Visi</h3>
+                    <p class="visip">Menjadi sekolah unggulan yang menciptakan generasi berintegritas 
+                        dan kompetitif di tingkat global.</p>
+                
+                <h3>Misi</h3>
+                    <ol>
+                        <li>Memberikan pendidikan holistik berkualitas.</li>
+                        <li>Mengembangkan potensi siswa.</li>
+                       <li>Menyediakan lingkungan belajar inspiratif.</li>
+                        <li>Mengajak kolaborasi komunitas.</li>
+                        <li>Menyiapkan siswa dengan keterampilan abad 21.</li>
+                   </ol>
+            </div>
+            <article class="list-profil">
+                
+
+                <div>
+                    <div class="profil">
+                        <img id="gambarprofil" 
+                        src="https://tatkala.co/wp-content/uploads/2019/02/donnie-weda-darmawan.-guru-asing-mengajar-1.jpg">
+                    </div>
+                    <h5>Pengajar profesional</h5>
+                    <br>
+                </div>
+
+                <div>
+                    <div class="profil">
+                        <img id="gambarprofil" 
+                        src="https://premiuminterindo.com/wp-content/uploads/2023/12/Haed364d2df7241b88c3e54688ba0daf2t.webp">
+                    </div>
+                    <h5>Lapangan Olahraga</h5>
+                    <br>
+                </div>
+
+                <div>
+                    <div class="profil">
+                        <img id="gambarprofil" 
+                        src="https://sma-ypunila.sch.id/wp-content/uploads/2023/07/MG_9056-scaled.jpg">
+                    </div>
+                    <h5>Kelas Nyaman + AC</h5>
+                    <br>
+                </div>
+
+                <div>
+                    <div class="profil">
+                        <img id="gambarprofil" 
+                        src="https://stikeshb.ac.id/wp-content/uploads/2022/07/library-g207303354_1920.jpg">
+                    </div>
+                    <h5>Perputakaan Ilmu</h5>
+                    <br>
+                </div>
+
+                <div>
+                    <div class="profil">
+                        <img id="gambarprofil" 
+                        src="https://naikpangkat.com/wp-content/uploads/2022/09/pexels-max-fischer-5212687-1024x683.jpg">
+                    </div>
+                    <h5>Tempat Diskusi Siswa</h5>
+                    <br>
+                </div>
+            </article>
+
+        </section>
+        <hr>
+
+        <!-- Hubungi Kami! -->
+        <section id="hubungikami">
+            <header>
+                <h1>Hubungi Kami!</h1>
+            </header>
+            <br>
+            
+            <section class="form-hubungikami">
+                <!-- Form -->
+                <section>
+                    <form id="form" action="" method="">
+                        <table>
+                            <tr>
+                                <td><label for="nama">Nama</label></td>
+                                <td> : </td>
+                                <td><input id="nama" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="tgllahir">Tanggal Lahir</label></td>
+                                <td> : </td>
+                                <td><input id="tgllahir" type="date"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Gender">Gender</label></td>
+                                <td> : </td>
+                                <td>
+                                    <input type="radio" id="perempuan" name="gender" value="Perempuan">
+                                    <label for="perempuan">Perempuan</label>
+                                    <input type="radio" id="lakilaki" name="gender" value="Laki-Laki">
+                                    <label for="lakilaki">Laki-Laki</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="pesan">Pesan</label></td>
+                                <td> : </td>
+                                <td><textarea id="pesan" type="text"></textarea></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <input type="submit" value="Submit">
+                        <br></br>
+                    </form>                
+                </section>
+
+                <!-- Hasil Form -->
+                <section class="form-output">
+                    <div id="pesanhasilform"></div>
+                    <div id="hasilform"></div>
+                    <br>
+                </section>
+            </section> 
+        </section>
+        <script src="js/script.js"></script>
+    </body>
+    <hr>
+
+    <footer>
+        <p>- School Profile -</p>
+    </footer>
+</html>
